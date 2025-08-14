@@ -63,3 +63,12 @@ flowchart LR
 - *Redundancy*: choose action **only** when independent sources agree within a small tolerance.
 - *Extensible*: add new metrics, sources, or sinks (email/Telegram) without changing core flow.
 ```
+
+
+
+## 2025-08-14
+- Kicked off a private contract project to design and implement a **value-based market intelligence engine**.
+- Today I set up a modular architecture with separate alert, notification, and utility layers.
+- I quickly Built and tested an MVP alert pipeline capable of running continuously and triggering based on configurable metrics using hypothical bitcoin price triggers to make sure the logic ran smoothly.
+- I also set up private GitHub repo for codebase and public repo(this one!) for work log to maintain confidentiality while showcasing progress for future oppertunities.
+- Initial notifier implemented for local testing, laying groundwork for future Telegram integrations for large groups down the line.
